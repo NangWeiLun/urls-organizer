@@ -127,8 +127,10 @@ You can use this file as your `sample/urls.txt` or specify it as input to the su
 - You can safely stop and resume processing at any time.
 
 ## Requirements
-- Python 3.8+
-- See `requirements.txt` for dependencies.
+- Python 3.12+
+- Google Gemini API access (API key and model name)
+- Discord bot token (for Discord integration)
+- All Python dependencies are listed in `requirements.txt`.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
