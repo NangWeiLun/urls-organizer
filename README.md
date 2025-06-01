@@ -1,4 +1,4 @@
-# URL Organizer
+# URLs Organizer
 
 > **Note:** For my personal motivation, workflow, and experiments with GitHub Copilot, see [NOTE.md](NOTE.md).
 
