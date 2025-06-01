@@ -1,0 +1,20 @@
+[project]
+name = "urls_organizer"
+version = "0.1.0"
+description = "Summarize and group URLs using Google Gemini API, with Discord bot integration."
+authors = [
+    { name = "Nang", email = "nangweilun@outlook.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+# dependencies will be loaded from requirements.txt by hatch-requirements
+
+[project.scripts]
+urls_organizer = "urls_organizer.main:main"
+
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
